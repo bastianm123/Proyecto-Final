@@ -1,0 +1,222 @@
+
+
+.nav-item{
+    font-size: 1.5rem;
+}
+#carouselExampleIndicators{
+    margin-bottom: 50px;
+    margin: auto;
+    
+}
+.oferta{
+    width: 100%;
+    height: 450px;
+    ;
+}
+.oferta2{
+    width: 100%;
+    height: 450px;
+}
+#h1-oferta{
+    color: black;
+    font-size: 8ch;
+    margin-bottom: 4%;
+}
+#h2-oferta{
+    margin-bottom: 10%;
+    margin-left: 75%;
+    color: black;
+}
+#h3-oferta{
+    color: black;
+    font-size: 6ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oferta3{
+    width: 100%;
+    height: 450px;
+}
+#h1-oferta2{
+    color: red;
+    font-size: 15ch;
+}
+#h2-oferta2{
+    color: red;
+    font-size: 10ch;
+    
+}
+
+#ubi{
+    width: 200px;
+    margin-left: 10%;
+}
+#caja{
+    width: 200px;
+}
+#barra{
+    width: 80px;
+}
+#sobre{
+    width: 125px;
+}
+.fila{
+    background-color: white;
+    margin-left: 150px;
+}
+.precio1{
+    font-size: 2em;
+    color: red;
+    margin-left: 4%;
+    text-align: bottom;
+}
+.producto-content{
+    margin-left: 5%;
+}
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.cat-producto{
+    width: 300px;
+}
+.producto-content:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.catalogo-producto{
+    width: 300px;
+}
+.producto{
+    width: 300px;
+    border: 1px solid; 
+    color: black;
+}
+#info{
+    font-size: 1.2em;
+}
+.final{
+    color: black;
+    margin-left: 5%;
+    margin-top:10%;
+}
+#fondo{
+    background-color: #7109B1;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .con-footer{
+      background-color: pink;
+      text-align: center;
+  }
+
+
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+@media screen and (max-width:700px) {
+    .nav-link{
+        display: inherit;
+    }
+    #logo{
+        width: 200px;
+    }
+    #items{
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .fila{
+        margin-left: 5px;
+    }
+    
+    .oferta{
+        width: 375px;
+        height: 375px;
+    }
+    .oferta2{
+        width: 100%;
+        height: 375px;
+    }
+    .oferta3{
+        width: 375px;
+        height: 375px;
+    }
+    #h1-oferta2{
+        font-size: 4ch;
+        
+    }
+    #h1-oferta{
+        color: black;
+        font-size: 4ch;
+        margin-bottom: 5px;
+
+    }
+    #h2-oferta{
+        font-size: 2.1ch;
+        color: black;
+        margin-bottom: 50px;
+    }
+    #h3-oferta{
+        color: black;
+        font-size: 4ch;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #h2-oferta2{
+        font-size: 5ch;
+        margin-top: 15%;
+        
+    }
+    #ubi{
+        width: 100px;
+        margin-left: 4%;
+    }
+    #caja{
+        width: 100px;
+        margin-left: 2%;
+    }
+    #sobre{
+        margin-left: 15%;
+        width: 80px;
+        
+    }
+    .productos{
+        width: 200px;
+    }
+    .precios{
+        display: flex;
+        font-size: 1.0em;
+    }
+    .precios2{
+    
+        font-size: 1.0em;
+    }
+}

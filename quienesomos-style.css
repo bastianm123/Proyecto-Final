@@ -1,0 +1,87 @@
+.nav-item{
+    font-size: 1.5rem;
+}
+
+.img-pedir{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.contenedor{   
+    display: flex;
+    margin: 60px;
+}
+#logo{
+    width: 200px;
+}
+.secciones{
+    margin-left: -5%;
+}
+.pedir-texto{
+    text-align: center;
+    font-size: 3em;
+}
+.pedir-p{
+    font-size: 2em;
+    padding: 50px;
+    text-align: center;
+}
+.camion{
+    width: 400px;
+    margin-left: 40%;
+}
+.final{
+    color: black;
+    margin-left: 5%;
+    
+}
+#fondo{
+    background-color: #7109B1;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .con-footer{
+      background-color: pink;
+      text-align: center;
+  }
+
+  @media screen and (max-width:700px) {
+      .secciones{
+          margin-left: -10%;
+          
+      }
+      .pedir-texto{
+          font-size: 2em;
+      }
+      .pedir-p{
+        font-size: 1em;
+        padding: 10px;
+    }
+    .camion{
+        width: 300px;
+        margin-left: 5%;
+    }
+  }

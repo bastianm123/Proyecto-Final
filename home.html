@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BiblioDelivery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icono.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-between"
+      style="background-color: #7109B1;">
+      <a class="navbar-brand" href="home.html">
+        <img src="img/logohear3.png" class="d-inline-block align-top" id="logo" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="items">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienessomos.html">Preguntas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html">Catalógo</a>
+          </li>
+        </ul>
+        <i class="material-icons" id="cuenta" style="font-size:63px;color:gray">account_box</i>
+        <a href="login.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"
+          style="background-color: gray;">Iniciar Sesion</a>
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="oferta" src="img/3x22.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="oferta2" src="img/delivery.png" alt="Second slide">
+          <div class="carousel-caption">
+            <h1 id="h1-oferta">Delivery de Lunes a Sabado</h1>
+            <h2 id="h2-oferta"> Lunes 9:00 a 18:00 Sabado 9:00 a 14:00</h2>
+            <h3 id="h3-oferta">Tel:954004213</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="oferta3" src="img/escuela.png" alt="Third slide">
+          <div class="carousel-caption">
+            <h1 id="h1-oferta2">OFERTA SEMANAL:</h1>
+            <h2 id="h2-oferta2">¡¡¡10% de DESCUENTO en LAPICES!!!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+    </div>
+  </header>
+  <div class="contenedor">
+    <div class="fila">
+      <div class="col-lg-12 col-sm-6 col-md-4">
+        <img id="ubi" src="img/ubi.png" alt="">
+        <a href="https://www.google.com/maps/place/Av.+Pedro+de+Valdivia+3637,+%C3%91u%C3%B1oa,+Regi%C3%B3n+Metropolitana/@-33.4562591,-70.6052743,21z/data=!4m5!3m4!1s0x9662cf93eaaadba1:0xee48c83208538b79!8m2!3d-33.4562427!4d-70.6053826?hl=es-CL"
+          style="color:black" target="_blank"><u>Nuestra ubicación.</u></a>
+        <img id="barra" src="img/barra.png" alt="">
+        <img id="caja" src="img/caja.png" alt="">
+        <a href="estadopedido.html" style="color: black;"><u>Estado de tu pedido</u></a>
+        <img id="barra" src="img/barra.png" alt="">
+        <img id="sobre" src="img/sobre.png" alt="">
+        <a href="contacto.html" style="color: black;"><u>Contactanos</u></a>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="producto-content">
+          <h3>Cuaderno Diseño</h3>
+          <img class="cat-producto" src="catalogo/producto1.png" alt="">
+          <a href="catalogo.html"><h1>$1.100 c/u</h1></a>
+      </div>
+      <div class="producto-content">
+          <h3>Cuaderno Animal</h3>
+          <img class="cat-producto" src="catalogo/producto2.png" alt="">
+          <a href="catalogo.html"><h1>$990 c/u</h1></a>
+      </div>
+      <div class="producto-content">
+          <h3>Cuaderno Dragon ball</h3>
+          <img class="cat-producto" src="catalogo/producto3.png" alt="">
+          <a href="catalogo.html"><h1>$1.100 c/u</h1></a>
+      </div>
+      <div class="producto-content">
+        <h3>Cuaderno Dragon ball</h3>
+        <img class="cat-producto" src="catalogo/producto6.png" alt="">
+        <a href="catalogo.html"><h1>$3.490 c/u</h1></a>
+    </div>
+    </div>
+    <div id="fondo">
+      <div class="final">
+        <div class="container">
+          <div class="row">
+            <div class="col order-last">
+              <h4>Redes Sociales</h4>
+              <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+              <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+
+            </div>
+            <div class="col order-first">
+              <h4>Informacion BiblioDelivery</h4>
+              <li>Atendemos todos los dias desde las 8:00 a las 19:00</li>
+              <li>Call Center +3200600600</li>
+              <li>Contacto Email: BiblioDelivery@company.cl</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="con-footer">
+        <div class="fila-footer">
+          <div class="col align-center">
+            <strong>BiblioDelivery</strong> &copy;2022-Todos los derechos reservados. Sitio diseñado por <a
+              href="https://www.linkedin.com/in/bamunozs/" target="_blank">Bastian Muñoz</a>.
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
